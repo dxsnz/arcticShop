@@ -14,6 +14,7 @@ public class HelloController {
         Date date = new Date();
         SimpleDateFormat dateFormat= new SimpleDateFormat("yyyy-MM-dd :hh:mm:ss");
         System.out.println();
+
         return "welcome to arctic shop! " + dateFormat.format(date);
     }
 }
